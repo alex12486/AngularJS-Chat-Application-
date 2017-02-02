@@ -1,0 +1,120 @@
+@import vars
+
+
+
+body
+	font-family: 'Open Sans', sans-serif
+	overflow: hidden
+	transition: all .3s ease
+
+.chat-page
+	height: 100vh
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+
+	.chat-window
+		width: 70%
+		box-shadow: 0 5px 30px -10px #000
+		border-radius: 10px
+		overflow: hidden
+
+		.chat-header
+			display: flex
+			justify-content: space-between
+
+
+
+		.chat-body
+			height: 400px
+			overflow-y: scroll
+			padding: 20px
+
+			.messages
+				margin: 0
+				padding: 0
+				list-style-type: none
+
+			.message
+				background: $light
+				border-radius: 10px
+				padding: 15px
+				margin-bottom: 10px
+				border: 1px solid #eee
+				width: 60%
+				float: left
+				display: flex
+				overflow: hidden
+
+				img
+					margin: 0 10px 0 0
+					border: none
+
+				.text
+
+					&:last-child
+						font-style: italic
+
+
+				&.message--mine
+					float: right
+					color: #fff
+					background-color: $main-color
+
+
+	.chat-footer
+		display: flex
+		align-items: center
+		justify-content: space-around
+
+		textarea
+			width: 70%
+			padding: 10px
+			border: none
+			box-shadow: 0 0 20px -5px #000
+			border-radius: 10px
+			outline: none
+
+.chat-header, .chat-footer
+	text-align: center
+	padding: 20px
+	box-shadow: 0 0 20px -10px #000
+
+
+.message__author-img
+	height: 40px
+	border-radius: 50%
+	margin: 0 5px 10px 0
+	border: 2px solid #fff
+
+
+.message__author-img
+	height: 40px
+	border-radius: 50%
+	margin: 0 5px 10px 0
+	border: 2px solid #fff
+
+
+.chat-header__photo
+	height: 80px
+	border-radius: 50%
+	margin: 0 5px 10px 0
+	border: 2px solid #fff
+
+
+.author-info
+	display: flex
+	align-items: center
+
+	img
+		margin: 0 20px 0 0
+
+	.chat-header__author
+		font-weight: 400
+		font-size: 30px
+
+
+.chat-header__btns
+	display: flex
+	align-items: center

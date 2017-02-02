@@ -1,0 +1,65 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\user\Programs\node\node.exe C:\Users\Алексей\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --debug
+[debug] CLI Version:  3.2.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.1
+[debug] Time:         Wed Dec 14 2016 22:42:42 GMT+0200 (Финляндия (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chat-d598c 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chat-d598c/tokens 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'chat-d598c'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public/ directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/chat-d598c/uploads/-KYz3f_ZHqMzAnRs0fFm?fileCount=5&message= 
+[debug] <<< HTTP RESPONSE 200
+[info] +  hosting: public/ folder uploaded successfully
+[info] +  hosting: 5 files uploaded successfully
+[info] i  starting release process (may take several minutes)...
+[debug] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/chat-d598c/releases
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/chat-d598c/overview
+[info] Hosting URL: https://chat-d598c.firebaseapp.com
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\user\Programs\node\node.exe C:\Users\Алексей\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --debug
+[debug] CLI Version:  3.2.0
+[debug] Platform:     win32
+[debug] Node Version: v6.9.1
+[debug] Time:         Wed Dec 14 2016 23:09:51 GMT+0200 (Финляндия (зима))
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chat-d598c 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chat-d598c/tokens 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'chat-d598c'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public/ directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/chat-d598c/uploads/-KYz9tWebBoBF_F80Xdr?fileCount=5&message= 
+[debug] <<< HTTP RESPONSE 200
+[info] +  hosting: public/ folder uploaded successfully
+[info] +  hosting: 5 files uploaded successfully
+[info] i  starting release process (may take several minutes)...
+[debug] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/chat-d598c/releases
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/chat-d598c/overview
+[info] Hosting URL: https://chat-d598c.firebaseapp.com
